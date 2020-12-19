@@ -12,9 +12,10 @@ list_dir = os.listdir()
 
 random_number = random.randint(1, 1000000000)
 random_number = str(random_number)
-log_file_name = f"{random_number}_log_{x}.txt"
+log_file_name = f"{random_number}_log_{x}"
 log_file_name = log_file_name.replace(":", "_")
 log_file_name = log_file_name.replace(".", "_")
+log_file_name = log_file_name + ".txt"
 with open(log_file_name, "w") as log_writer:
     log_writer.write(str(list_dir))
     log_writer.close()
