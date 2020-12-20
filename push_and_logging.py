@@ -17,12 +17,13 @@ log_file_name = log_file_name.replace(":", "_")
 log_file_name = log_file_name.replace(".", "_")
 log_file_name = log_file_name.replace(" ", "_")
 log_file_name = log_file_name + ".txt"
-print(log_file_name)
+
 with open(log_file_name, "w") as log_writer:
     log_writer.write(str(list_dir))
     log_writer.close()
 moving_command = f"mv {log_file_name} I:\\Github\\python_part_2\\logging\\" #moving command for log text fole
 opening_command = f"notepad I:\\Github\\python_part_2\\logging\\{log_file_name}"
-print(log_file_name)
+
 os.system(moving_command)
 os.system(opening_command)
+print("logged perfectly")
