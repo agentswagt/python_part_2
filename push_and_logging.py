@@ -17,7 +17,10 @@ log_file_name = log_file_name.replace(":", "_")
 log_file_name = log_file_name.replace(".", "_")
 log_file_name = log_file_name.replace(" ", "_")
 log_file_name = log_file_name + ".txt"
-
+#WebPage Loging Section
+print("Webpage Updating")
+os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
+print("Webpage Updated")
 with open(log_file_name, "w") as log_writer:
     log_writer.write(str(list_dir))
     log_writer.close()
@@ -28,7 +31,4 @@ os.system(moving_command)
 os.system(opening_command)
 print("logged perfectly")
 
-#WebPage Loging Section
-print("Webpage Updating")
-os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
-print("Webpage Updated")
+
