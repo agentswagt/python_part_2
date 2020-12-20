@@ -27,3 +27,8 @@ opening_command = f"notepad I:\\Github\\python_part_2\\logging\\{log_file_name}"
 os.system(moving_command)
 os.system(opening_command)
 print("logged perfectly")
+
+#WebPage Loging Section
+print("Webpage Updating")
+os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
+print("Webpage Updated")
