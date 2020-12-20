@@ -2,7 +2,8 @@ import os
 import datetime
 import webbrowser as wb
 time = datetime.datetime.today()
-programs_list = os.listdir()
+programs_list = os.listdir().remove("webpage_updater.py", "programs.html")
+
 print(programs_list)
 
 with open("programs.html", "w") as programs_webpage:

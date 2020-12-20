@@ -1,0 +1,1 @@
+['.git', '.idea', 'hello.py', 'logging', 'program', 'push_and_logging.py', 'README.md', 'test.py']
