@@ -23,6 +23,8 @@ log_file_name = log_file_name + ".txt"
 print("Webpage Updating")
 os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
 print("Webpage Updated")
+
+print("Creatinh Log")
 with open(log_file_name, "w") as log_writer:
     log_writer.write(str(list_dir))
     log_writer.close()
