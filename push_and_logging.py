@@ -29,6 +29,9 @@ opening_command = f"notepad I:\\Github\\python_part_2\\logging\\{log_file_name}"
 
 os.system(moving_command)
 os.system(opening_command)
+os.system("git add .")
+os.system(f"git commit -m \"{x}\"")
+os.system("git push -u origin master")
 print("logged perfectly")
 
 
