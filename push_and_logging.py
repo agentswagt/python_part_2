@@ -3,7 +3,9 @@ import os
 import random
 x = datetime.datetime.now()
 x = str(x)
-
+print("Webpage Updating")
+os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
+print("Webpage Updated")
 os.system("git add .")
 os.system(f"git commit -m \"{x}\"")
 os.system("git push -u origin master")

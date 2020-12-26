@@ -3,7 +3,7 @@ import datetime
 import webbrowser as wb
 time = datetime.datetime.today()
 programs_list = os.listdir()
-programs_list.remove("webpage_updater.py")
+
 programs_list.remove("programs.html")
 print(programs_list)
 
