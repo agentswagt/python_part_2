@@ -19,7 +19,7 @@ log_file_name = log_file_name.replace(":", "_")
 log_file_name = log_file_name.replace(".", "_")
 log_file_name = log_file_name.replace(" ", "_")
 log_file_name = log_file_name + ".txt"
-#WebPage Loging Section
+#WebPage Loging Section Shagato
 print("Webpage Updating")
 os.system("python I:\\Github\\python_part_2\\program\\webpage_updater.py")
 print("Webpage Updated")
